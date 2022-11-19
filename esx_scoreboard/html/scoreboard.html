@@ -1,0 +1,97 @@
+<html>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://esx_scoreboard/html/listener.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="nui://esx_scoreboard/html/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body style="overflow: hidden;">
+	<div style="display: none;" id="wrap">
+
+		<div class="header">
+					<div class="players">
+						<text style="text-transform: uppercase; ">
+							GRACZE: <span id="player_count">0</span> </br>
+							ID: <span id="server_uptime"></span>
+						</text>
+					</div>
+
+					<div class="allJobPlayers">
+					
+						<table>
+							<tr>
+								<td> <b>SAPD:</b> <span id="police">0</span> </td>
+								<td> <b>SAMS:</b> <span id="ems">0</span> </td>
+							</tr>
+							<tr>
+								<td><b>LSCM:</b> <span id="mechanic">0</span></td>
+								<td><b>PDM:</b> <span id="fire">0</span></td>
+							</tr>
+
+							<tr>
+								<td><b>TAXI:</b> <span id="estate">0</span></td>
+								<td><b>ROW:</b> <span id="dmv">0</span></td>
+							</tr>
+						</table>
+					</div>
+		
+
+			<div class="playerJob">
+				<div class="border"></div>
+				<text>
+					<span id="praca">[Ładowanie...]</span>
+				</text>
+			</div>
+
+		</div>
+
+
+		
+
+		<div class="serverinfo" >
+		
+					<div class="type" id="zycie">
+						<div class="progress">
+							<div class="progress-health">
+								<text class="progressText" fill="white" id="tekstHealth">Zdrowie: 100%</text>
+							</div>
+						</div>
+					</div>
+					<div class="type" id="hunger">
+					
+						<div class="progress">
+							<text class="progressText"fill="black" id="tekstHunger">Jedzenie: 0%</text>
+							<div class="progress-hunger"></div>
+						</div>
+					</div>
+					<div class="type" id="thirst">
+						<div class="progress">
+							<text class="progressText"fill="black" id="tekstThirst">Nawodnienie: 0%</text>
+							<div class="progress-thirst"></div>
+						</div>
+					</div>
+					<div class="type" id="alkohol">
+					
+						<div class="progress">
+							<text class="progressText" fill="black" id="tekstDrunk">Zmęczenie: 0%</text>
+							<div class="progress-drunk"></div>
+						</div>
+					</div>
+						<div class="type" id="alkohol">
+					
+						<div class="progress">
+							<text class="progressText" x="0" y="0" fill="black" id="tekstAlcohol">Używki: 0%</text>
+							<div class="progress-alcohol"></div>
+						</div>
+					</div>
+				
+			<br>
+		</div>
+
+
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css%27');
+
+
+
+
+@font-face {
+    font-family: harmonia;
+    src: url('fonts/HarmoniaSansProCyr-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: harmonia-bold;
+    src: url('fonts/HarmoniaSansProCyr-Bold.ttf');
+  }
+
+ @font-face {
+    font-family: harmonia-light;
+    src: url('fonts/HarmoniaSansProCyr-Light.ttf');
+  }
+
+html {
+	font-family: harmonia;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	width: 30%;
+	height: 100%;
+	float: right;
+	margin-top: 13%;
+
+	color: #fff;
+	border-radius: 8px;
+}
+
+p {
+	font-size: 1.05vw;
+}
+
+.playerlist {
+	width: 100%;
+	text-align: center;
+	color: white;
+
+}
+
+
+.boardHidden {
+    opacity: 0 !important;
+    margin-left: -50% !important;
+}
+
+.header {
+	padding-top: 10px;
+	font-family: harmonia-bold;
+	
+		clear: both;
+		float: right;
+		box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		-webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+	
+	width: 65%;
+	background-color: rgba(0, 0, 0, 0.75);
+	padding-left: 1px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	border-radius: 10px 0px 0px 5px;
+	-webkit-animation: Gradient 11s ease infinite;
+	-moz-animation: Gradient 11s ease infinite;
+	animation: Gradient 11s ease infinite;
+}
+
+.players {
+	padding-left: 3%;
+	font-size: 0.9vw;
+	display: flex;
+	float: left;
+
+}
+
+.allJobPlayers{
+		position: relative;
+		float: right;
+		right: 3%;
+}
+
+table {
+	color: white;
+	font-size: 0.6vw;
+}
+
+#police, #mechanic, #estate {
+	margin-right: 5px;
+}
+
+.playerJob {
+	position: relative;
+	margin-top: 20%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 0.7vw;
+	letter-spacing: 1px;
+}
+
+.border {
+	margin-bottom: 12px;
+	border-top: 4px solid rgba(255, 191, 43, 0.753);
+	box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		-webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+}
+
+
+
+
+
+
+
+
+.serverinfo {
+	font-family: harmonia-bold;
+
+}
+
+
+
+      .progress {
+		position: relative;
+		clear: both;
+		float: right;
+		margin-top: 2%;
+		text-align: right;
+        width: 65%;
+        height: 5%;
+        background-color: rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		-webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		border-radius: 7px 0px 0px 7px;
+	}
+        .progress div {
+			box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+			-webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+			-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.73);
+		  
+          width: 100%;
+          height: 100%;
+		  background: rgba(0,0,0,0.7);
+		  border-radius: 7px 0px 0px 7px;
+		}
+
+	
+		  
+.progressText{
+	position: absolute;
+	font-family: harmonia-bold;
+	color: #FFFFFF;
+	font-size: 0.8vw;
+	letter-spacing: 1.5px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+}
+
+@-webkit-keyframes GradientAnim {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes GradientAnim {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes GradientAnim { 
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
